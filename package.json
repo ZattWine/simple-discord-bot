@@ -1,0 +1,22 @@
+{
+  "name": "mixindiscordbot",
+  "version": "1.0.0",
+  "description": "Simple discord bot.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Kyaw Zayar Tun",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
